@@ -1,88 +1,178 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ucapan Ulang Tahun Nadhira Firmansyah</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #e6f7ff;
+      color: #02457a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      padding: 20px;
+    }
+
+    .container {
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 700px;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    header {
+      background: #b3e5ff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+    }
+
+    header .highlight {
+      color: #0177b7;
+    }
+
+    .photos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+      gap: 15px;
+      padding: 15px;
+    }
+
+    .photo-frame img {
+      width: 100%;
+      display: block;
+      border: 4px solid #b3e5ff;
+      border-radius: 8px;
+    }
+
+    .message {
+      padding: 15px 20px;
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+
+    .signature {
+      text-align: right;
+      font-style: italic;
+      margin-top: 15px;
+    }
+
+    /* Template 2 */
+    .template-2 .carousel {
+      display: flex;
+      overflow-x: auto;
+      gap: 10px;
+      padding: 15px;
+    }
+
+    .template-2 .slide {
+      min-width: 200px;
+      border: 4px solid #b3e5ff;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .template-2 .slide img {
+      width: 100%;
+      display: block;
+    }
+
+    /* Template 3 */
+    .template-3 .photo-large img {
+      width: 100%;
+      display: block;
+    }
+
+    .template-3 .poem {
+      padding: 15px 20px;
+      font-style: italic;
+      line-height: 1.8;
+    }
+
+    .template-3 .poem p {
+      margin-bottom: 12px;
+      font-size: 1.1rem;
+    }
+
+    .template-3 .signature {
+      text-align: center;
+      font-style: normal;
+      padding-bottom: 20px;
+    }
+  </style>
 </head>
 <body>
+
   <!-- TEMPLATE 1 -->
   <div class="container template-1">
     <header>
-      <div class="sparkle">✨</div>
       <h1>Selamat Ulang Tahun</h1>
-      <h2>Untukmu, <span class="highlight">Nadhira Firmansyah</span> <span class="highlight-emoji">🎂</span></h2>
+      <h2>Untukmu, <span class="highlight">Nadhira Firmansyah</span></h2>
     </header>
     <section class="photos">
-      <div class="photo-frame"><img src="5.jpg" alt="Momen 1"></div>
-      <div class="photo-frame"><img src="6.jpg" alt="Momen 2"></div>
-      <div class="photo-frame"><img src="7.jpg" alt="Momen 3"></div>
-      <div class="photo-frame"><img src="8.jpg" alt="Momen 4"></div>
+      <div class="photo-frame"><img src="5.jpg" alt="Momen Bersama 1"></div>
+      <div class="photo-frame"><img src="6.jpg" alt="Momen Bersama 2"></div>
+      <div class="photo-frame"><img src="7.jpg" alt="Momen Bersama 3"></div>
+      <div class="photo-frame"><img src="8.jpg" alt="Momen Bersama 4"></div>
     </section>
     <section class="message">
-      <p>Sayangku, setiap detik bersamamu adalah berkah. <span>💖</span></p>
-      <p>Hari ini aku berdoa semoga senyummu selalu bersinar cerah. <span>🌟</span></p>
-      <p>Selamat ulang tahun, cintaku! <span>🥳</span></p>
+      <p>Sayangku, setiap detik bersamamu adalah berkah.</p>
+      <p>Hari ini aku berdoa semoga senyummu selalu bersinar cerah.</p>
+      <p>Selamat ulang tahun, cintaku!</p>
       <p class="signature">- [Namamu]</p>
     </section>
-  </div>  <!-- TEMPLATE 2 -->  <div class="container template-2">
+  </div>
+
+  <!-- TEMPLATE 2 -->
+  <div class="container template-2">
     <header>
-      <div class="sparkle">✨</div>
       <h1>Happy Birthday</h1>
-      <h2><span class="highlight">Nadhira Firmansyah</span> <span class="highlight-emoji">🎈</span></h2>
+      <h2><span class="highlight">Nadhira Firmansyah</span></h2>
     </header>
     <section class="carousel">
-      <div class="slides">
-        <div class="slide"><img src="1.jpg" alt="Slide 1"></div>
-        <div class="slide"><img src="2.jpg" alt="Slide 2"></div>
-        <div class="slide"><img src="3.jpg" alt="Slide 3"></div>
-      </div>
-      <button class="prev">◀️</button>
-      <button class="next">▶️</button>
+      <div class="slide"><img src="1.jpg" alt="Slide 1"></div>
+      <div class="slide"><img src="2.jpg" alt="Slide 2"></div>
+      <div class="slide"><img src="3.jpg" alt="Slide 3"></div>
     </section>
     <section class="message">
-      <p>Di hari istimewa ini, aku berharap semua impianmu terwujud. 💭</p>
-      <p>Terima kasih telah menghadirkan cinta dan kebahagiaan. 💕</p>
-      <p>Love you to the moon and back! 🌙</p>
+      <p>Di hari istimewa ini, aku berharap semua impianmu terwujud.</p>
+      <p>Terima kasih telah menghadirkan cinta dan kebahagiaan.</p>
+      <p>Love you to the moon and back!</p>
       <p class="signature">— [Namamu]</p>
     </section>
-  </div>  <!-- TEMPLATE 3 -->  <div class="container template-3">
+  </div>
+
+  <!-- TEMPLATE 3 -->
+  <div class="container template-3">
     <header>
-      <div class="sparkle">✨</div>
       <h1>Untuk Nadhira</h1>
-      <h2>Selamat Ulang Tahun! <span class="highlight-emoji">🎉</span></h2>
+      <h2>Selamat Ulang Tahun!</h2>
     </header>
     <section class="photo-large">
       <img src="4.jpg" alt="Foto Spesial">
     </section>
     <section class="poem">
-      <p>Ketika matahari tiba,<br>ingatlah sinarmu yang menyapa hatiku. ☀️</p>
-      <p>Pohon-pohon merunduk,<br>menyambut bahagia di harimu.</p>
-      <p>Semoga cinta kita tumbuh makin indah,<br>seperti bunga yang tak pernah pudar. 🌸</p>
-      <p class="signature center">💕 [Namamu]</p>
+      <p>Ketika matahari tiba,  
+      Ingatlah sinarmu yang menyapa hatiku.</p>
+      <p>Pohon-pohon merunduk,  
+      Menyambut bahagia di harimu.</p>
+      <p>Semoga cinta kita tumbuh makin indah,  
+      Seperti bunga yang tak pernah pudar.</p>
+      <p class="signature">💕 [Namamu]</p>
     </section>
-  </div>  <script>
-    // Carousel Interactive
-    document.querySelectorAll('.template-2').forEach(carousel => {
-      const slides = carousel.querySelector('.slides');
-      const total = slides.children.length;
-      let index = 0;
-      const update = () => slides.style.transform = `translateX(-${index * 100}%)`;
-      carousel.querySelector('.next').onclick = () => { index = (index + 1) % total; update(); };
-      carousel.querySelector('.prev').onclick = () => { index = (index - 1 + total) % total; update(); };
-    });
+  </div>
 
-    // Click to add floating hearts
-    document.body.onclick = (e) => {
-      const heart = document.createElement('div');
-      heart.textContent = '💘';
-      heart.style.position = 'absolute';
-      heart.style.left = e.pageX+'px';
-      heart.style.top = e.pageY+'px';
-      heart.style.fontSize = '24px';
-      heart.style.pointerEvents = 'none';
-      document.body.appendChild(heart);
-      setTimeout(() => heart.remove(), 1000);
-    };
-  </script></body>
+</body>
 </html>
